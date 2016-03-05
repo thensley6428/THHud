@@ -2863,6 +2863,78 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		BikoRegular12
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular16
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular20
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular24
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular32
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular40
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular48
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		//This is where I'm installing my custom font, called Biko from dafont.com.
 
 	}
 
@@ -5222,5 +5294,20 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
+		"8"
+		{
+			"font" "resource/fonts/Biko_Black"
+			"name" "Biko-Black"
+		}
+		"7"
+		{
+			"font" "resource/fonts/Biko_Bold"
+			"name" "Biko-Bold"
+		}
+		"10"
+		{
+			"font" "resource/fonts/Biko_Regular"
+			"name" "Biko"
+		}
 	}
 }
