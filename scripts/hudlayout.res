@@ -22,6 +22,8 @@
 		"tall"	"45"
 	}
 	
+	//Ammo location has been changed.
+	
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"

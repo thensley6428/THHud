@@ -2934,7 +2934,99 @@ Scheme
 			}
 		}
 		
-		//This is where I'm installing my custom font, called Biko from dafont.com.
+		BikoRegular56
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		//End of regular, beginning of bold.
+		
+		BikoBold12
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold16
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold20
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold24
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold32
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold40
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold48
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold56
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		//This is where I'm installing my custom fonts, called Biko and Biko Bold from dafont.com.
 
 	}
 
@@ -5309,5 +5401,7 @@ Scheme
 			"font" "resource/fonts/Biko_Regular"
 			"name" "Biko"
 		}
+		
+		// Biko fonts have been added by me.
 	}
 }

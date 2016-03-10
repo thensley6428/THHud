@@ -5,10 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-275"		[$WIN32]
-		"xpos_minmode"	"0"		[$WIN32]
+		"xpos"			"c-320"		[$WIN32]
 		"ypos"			"c125"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
@@ -17,38 +15,46 @@
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning"	"0"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+	
+	//X and Y positions have been changed for player health.
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"75"
-		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
+	
+	//Removed health image (cross).
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"0"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
+	
+	//Removed health image background.
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -75,20 +81,39 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"0"
+		"ypos"			"0"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"250"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BikoRegular24"
-		"fgcolor"		"TanDark"
-	}								
+		"font"			"BikoRegular56"
+		"fgcolor"		"White"
+	}			
+	//Font and font size have been changed.
+	//Position of panel changed to match HudPlayerHealth panel.
+		
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"2"
+		"ypos"			"2"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"250"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"BikoRegular56"
+		"fgcolor"		"0 0 0 255"
+	}	
+	//Creates shadow for health, appears to pop out.
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
