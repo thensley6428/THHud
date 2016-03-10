@@ -18,8 +18,8 @@
 		"enabled" "1"
 		"xpos"	"c125"	[$WIN32]
 		"ypos"	"c165"	[$WIN32]
-		"wide"	"94"
-		"tall"	"45"
+		"wide"	"250"
+		"tall"	"100"
 	}
 	
 	//Ammo location has been changed.
