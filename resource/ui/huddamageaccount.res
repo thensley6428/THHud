@@ -13,3 +13,5 @@
 		"delta_item_font_big"	"HudFontMedium"
 	}
 }
+
+//Changed font, size, and color of damage/healing numbers.
