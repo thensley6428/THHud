@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c235"	[$WIN32]
-		"ypos"			"c175"	[$WIN32]
+		"xpos"			"c300"	[$WIN32]
+		"ypos"			"c110"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -24,9 +24,8 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -35,28 +34,30 @@
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
+	//Removed background.
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
-		"ypos"					"25"
+		"ypos"					"27"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"100"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"BikoRegular12"
 	}
 	
-	//Changed font and y-position of label.
+	//Changed width and font of label.
 
 	"ItemEffectMeter"
 	{	
@@ -84,8 +85,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"7"
+		"xpos"					"52"
+		"ypos"					"8"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -100,5 +101,5 @@
 		"font"					"BikoRegular24"
 	}
 	
-	//Changed font an y-position of count.
+	//Changed font and position of count.
 }
