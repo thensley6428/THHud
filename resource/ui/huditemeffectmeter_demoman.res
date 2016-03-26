@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c235"	[$WIN32]
-		"ypos"			"c175"	[$WIN32]
+		"xpos"			"c255"	[$WIN32]
+		"ypos"			"c160"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -100,5 +100,5 @@
 		"font"					"BikoRegular24"
 	}
 	
-	//Changed font an y-position of count.
+	//Changed font and y-position of count.
 }
