@@ -1,0 +1,1 @@
+-This HUD was not designed for miniaml mode. As such, all files edited which had settings for minimal mode have been removed.
