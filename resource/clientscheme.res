@@ -2864,6 +2864,16 @@ Scheme
 			}
 		}
 		
+		BikoRegular8
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		
 		BikoRegular12
 		{
 			"1"
