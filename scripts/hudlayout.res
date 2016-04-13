@@ -55,7 +55,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-100"
-		"ypos"	"0"
+		"ypos"	"25"
 		"wide"	"200"
 		"tall"	"160"
 		
@@ -65,6 +65,8 @@
 		"red_active_xpos"			"106"
 		"red_active_xpos_minmode"	"105"
 	}	
+	
+	//Slightly edited y-position of panel for KOTH timers.
 
 	HudItemEffectMeter
 	{

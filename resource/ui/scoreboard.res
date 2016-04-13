@@ -1234,7 +1234,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+			"fgcolor"		"0 200 200 255"
+		}				
+
+		//Changed color of kills label.
+		
 		"DeathsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1251,7 +1255,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+			"fgcolor"		"0	200	200	255"
+		}		
+
+		//Change color of deaths label.
+		
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"

@@ -49,7 +49,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"BikoRegular16"
+			"font"			"BikoRegular20"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
@@ -126,7 +126,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"BikoRegular16"
+			"font"			"BikoRegular20"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"ypos"			"11"
