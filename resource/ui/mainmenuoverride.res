@@ -175,10 +175,50 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_operation
+		if_halloween_0
 		{
-			"image"		"../console/title_team_tough_break"
+			"image"		"../console/title_team_halloween2011"
 		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014"
+		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
+		if_fullmoon
+		{
+			"image"		"../console/title_fullmoon"
+		}
+		if_christmas
+		{
+			"image"		"../console/background_xmas2011"
+		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+		if_spy_vs_engy_war
+		{
+			"image"		"../console/background_sve_01"
+		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_tough_break"
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 					
 	"TFLogoImage"
@@ -226,9 +266,9 @@
 		"xpos"			"c-290"
 		"ypos"			"92"
 		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"120"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
@@ -239,6 +279,9 @@
 			"tall"		"156"
 		}
 	}	
+	
+	//Removed menu background.
+	
 	"PlayLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1617,7 +1660,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"c-160"
-		"ypos"			"253"
+		"ypos"			"298"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1711,7 +1754,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"c-285"
-		"ypos"			"253"
+		"ypos"			"298"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -1786,9 +1829,9 @@
 		"xpos"			"c-290"
 		"ypos"			"225"
 		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"60"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
@@ -1797,6 +1840,9 @@
 			"ypos"		"251"
 		}
 	}
+	
+	//Removed store menu background
+	
 	"CustomizeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1829,9 +1875,9 @@
 		"xpos"			"c-290"
 		"ypos"			"299"
 		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"60"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
@@ -1840,6 +1886,9 @@
 			"ypos"		"315"
 		}
 	}
+	
+	//Removed  menu background
+	
 	"CreateLabel"
 	{
 		"ControlName"	"CExLabel"
